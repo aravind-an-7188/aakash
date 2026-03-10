@@ -1,5 +1,5 @@
 body{
-font-family: Arial;
+font-family:Arial;
 margin:0;
 background:#f5f5f5;
 }
@@ -19,7 +19,7 @@ color:#0A6DC2;
 }
 
 nav a{
-margin-left:30px;
+margin-left:25px;
 text-decoration:none;
 color:#0A6DC2;
 }
@@ -29,28 +29,22 @@ background:#0A6DC2;
 color:white;
 padding:10px 20px;
 border-radius:8px;
-text-decoration:none;
 }
 
 .hero{
 display:flex;
-justify-content:space-between;
 align-items:center;
+justify-content:space-between;
 padding:100px;
 }
 
 .hero-text h1{
-font-size:48px;
+font-size:45px;
 color:#0A6DC2;
 }
 
-.hero-text p{
-margin-top:20px;
-font-size:18px;
-}
-
 .buttons{
-margin-top:30px;
+margin-top:20px;
 }
 
 .demo-btn{
@@ -74,62 +68,77 @@ width:300px;
 border-radius:10px;
 position:absolute;
 top:120px;
-left:150px;
+left:120px;
 }
 
-.ondemand{
+.services{
+padding:80px;
+text-align:center;
+}
+
+.service-grid{
 display:flex;
-justify-content:space-between;
-padding:100px;
+justify-content:center;
+gap:30px;
+margin-top:40px;
 }
 
-.left h3{
-color:#0A6DC2;
-}
-
-.right{
+.card{
 background:white;
-padding:40px;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+width:200px;
+}
+
+.trainers{
+padding:80px;
+text-align:center;
+}
+
+.trainer-grid{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+}
+
+.trainer-card{
+background:white;
+padding:20px;
 border-radius:10px;
 box-shadow:0 5px 20px rgba(0,0,0,0.1);
 }
 
-.session{
-background:#C2F2FF;
-padding:20px;
-margin-bottom:15px;
-border-radius:8px;
+.trainer-card img{
+width:200px;
+border-radius:10px;
 }
 
-.form-container{
-width:400px;
-margin:100px auto;
+.pricing{
+padding:80px;
 text-align:center;
 }
 
-input{
-width:100%;
-padding:12px;
-margin:10px 0;
-border-radius:6px;
-border:1px solid #ccc;
+.price-grid{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:40px;
 }
 
-.main-btn{
-width:100%;
-padding:12px;
+.price-card{
+background:white;
+padding:40px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+width:200px;
+}
+
+footer{
 background:#0A6DC2;
 color:white;
-border:none;
-border-radius:6px;
-margin-top:10px;
-}
-
-.google,.facebook{
-width:100%;
-padding:10px;
-margin-top:10px;
-background:#C2F2FF;
-border:none;
-border-radius:6px;
+text-align:center;
+padding:20px;
+margin-top:50px;
 }
