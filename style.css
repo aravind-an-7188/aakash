@@ -1,3 +1,32 @@
+body{
+font-family:Arial;
+margin:0;
+background:#f5f5f5;
+}
+
+/* Header */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+background:#C2F2FF;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+color:#0A6DC2;
+}
+
+nav a{
+margin-left:25px;
+text-decoration:none;
+color:#0A6DC2;
+font-weight:500;
+}
+
 /* Join button */
 
 .join-btn{
@@ -7,6 +36,7 @@ padding:12px 24px;
 border-radius:10px;
 font-weight:600;
 transition:0.3s;
+border:2px solid #0A6DC2;
 }
 
 .join-btn:hover{
@@ -15,46 +45,119 @@ color:white;
 }
 
 
-/* hero images */
+/* Hero Section */
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:120px;
+}
+
+.hero-text{
+max-width:500px;
+}
+
+.hero-text h1{
+font-size:42px;
+color:#0A6DC2;
+}
+
+.hero-text p{
+margin-top:20px;
+font-size:16px;
+color:#555;
+}
+
+.buttons{
+margin-top:30px;
+}
+
+.demo-btn{
+border:2px solid #0A6DC2;
+padding:10px 20px;
+border-radius:10px;
+margin-left:20px;
+color:#0A6DC2;
+text-decoration:none;
+}
+
+
+/* Images */
 
 .hero-images{
 position:relative;
-margin-right:120px;
+width:500px;
+margin-right:80px;
+}
+
+.image-card{
+position:absolute;
+border-radius:14px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.image-card img{
+width:345px;
+height:194px;
+object-fit:cover;
+display:block;
+border-radius:14px;
 }
 
 .img1{
-width:345px;
-height:194px;
-object-fit:cover;
-border-radius:14px;
-position:absolute;
 top:0;
 right:0;
-box-shadow:0 10px 25px rgba(0,0,0,0.1);
 }
 
 .img2{
-width:345px;
-height:194px;
-object-fit:cover;
-border-radius:14px;
-position:absolute;
 top:120px;
 right:-120px;
-box-shadow:0 10px 25px rgba(0,0,0,0.1);
 }
 
 
-/* text label overlay */
+/* Image label */
 
 .image-label{
 position:absolute;
-bottom:8px;
+bottom:10px;
 left:10px;
 background:#C2F2FF;
+color:#0A6DC2;
 padding:6px 12px;
 border-radius:8px;
 font-size:12px;
 font-weight:600;
-color:#0A6DC2;
+}
+
+
+/* Services */
+
+.services{
+padding:80px;
+text-align:center;
+}
+
+.service-grid{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:40px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+width:200px;
+}
+
+footer{
+background:#0A6DC2;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:60px;
 }
