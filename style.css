@@ -27,11 +27,12 @@ color:#0A6DC2;
 font-weight:500;
 }
 
-/* Join button */
+
+/* Join Button (UPDATED) */
 
 .join-btn{
-background:#C2F2FF;
-color:#0A6DC2;
+background:#0A6DC2;
+color:white;
 padding:12px 24px;
 border-radius:10px;
 font-weight:600;
@@ -40,8 +41,8 @@ border:2px solid #0A6DC2;
 }
 
 .join-btn:hover{
-background:#0A6DC2;
-color:white;
+background:#C2F2FF;
+color:#0A6DC2;
 }
 
 
@@ -153,6 +154,9 @@ border-radius:10px;
 box-shadow:0 5px 20px rgba(0,0,0,0.1);
 width:200px;
 }
+
+
+/* Footer */
 
 footer{
 background:#0A6DC2;
