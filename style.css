@@ -1,144 +1,60 @@
-body{
-font-family:Arial;
-margin:0;
-background:#f5f5f5;
-}
-
-header{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:20px 80px;
-background:#C2F2FF;
-}
-
-.logo{
-font-size:24px;
-font-weight:bold;
-color:#0A6DC2;
-}
-
-nav a{
-margin-left:25px;
-text-decoration:none;
-color:#0A6DC2;
-}
+/* Join button */
 
 .join-btn{
+background:#C2F2FF;
+color:#0A6DC2;
+padding:12px 24px;
+border-radius:10px;
+font-weight:600;
+transition:0.3s;
+}
+
+.join-btn:hover{
 background:#0A6DC2;
 color:white;
-padding:10px 20px;
-border-radius:8px;
 }
 
-.hero{
-display:flex;
-align-items:center;
-justify-content:space-between;
-padding:100px;
-}
 
-.hero-text h1{
-font-size:45px;
-color:#0A6DC2;
-}
-
-.buttons{
-margin-top:20px;
-}
-
-.demo-btn{
-border:2px solid #0A6DC2;
-padding:10px 20px;
-border-radius:8px;
-margin-left:20px;
-}
+/* hero images */
 
 .hero-images{
 position:relative;
+margin-right:120px;
 }
 
 .img1{
-width:300px;
-border-radius:10px;
+width:345px;
+height:194px;
+object-fit:cover;
+border-radius:14px;
+position:absolute;
+top:0;
+right:0;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
 }
 
 .img2{
-width:300px;
-border-radius:10px;
+width:345px;
+height:194px;
+object-fit:cover;
+border-radius:14px;
 position:absolute;
 top:120px;
-left:120px;
+right:-120px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
 }
 
-.services{
-padding:80px;
-text-align:center;
-}
 
-.service-grid{
-display:flex;
-justify-content:center;
-gap:30px;
-margin-top:40px;
-}
+/* text label overlay */
 
-.card{
-background:white;
-padding:30px;
-border-radius:10px;
-box-shadow:0 5px 20px rgba(0,0,0,0.1);
-width:200px;
-}
-
-.trainers{
-padding:80px;
-text-align:center;
-}
-
-.trainer-grid{
-display:flex;
-justify-content:center;
-gap:40px;
-margin-top:40px;
-}
-
-.trainer-card{
-background:white;
-padding:20px;
-border-radius:10px;
-box-shadow:0 5px 20px rgba(0,0,0,0.1);
-}
-
-.trainer-card img{
-width:200px;
-border-radius:10px;
-}
-
-.pricing{
-padding:80px;
-text-align:center;
-}
-
-.price-grid{
-display:flex;
-justify-content:center;
-gap:40px;
-margin-top:40px;
-}
-
-.price-card{
-background:white;
-padding:40px;
-border-radius:10px;
-box-shadow:0 5px 20px rgba(0,0,0,0.1);
-width:200px;
-}
-
-footer{
-background:#0A6DC2;
-color:white;
-text-align:center;
-padding:20px;
-margin-top:50px;
+.image-label{
+position:absolute;
+bottom:8px;
+left:10px;
+background:#C2F2FF;
+padding:6px 12px;
+border-radius:8px;
+font-size:12px;
+font-weight:600;
+color:#0A6DC2;
 }
