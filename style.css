@@ -4,18 +4,18 @@ margin:0;
 background:#f5f5f5;
 }
 
-/* Header */
-
-header{
+.navbar{
+position:sticky;
+top:0;
+background:#C2F2FF;
 display:flex;
 justify-content:space-between;
-align-items:center;
 padding:20px 80px;
-background:#C2F2FF;
+z-index:10;
 }
 
 .logo{
-font-size:24px;
+font-size:22px;
 font-weight:bold;
 color:#0A6DC2;
 }
@@ -24,36 +24,139 @@ nav a{
 margin-left:25px;
 text-decoration:none;
 color:#0A6DC2;
-font-weight:500;
 }
-
-/* Button */
 
 .join-btn{
 background:#0A6DC2;
 color:white;
-padding:12px 24px;
-border-radius:10px;
-font-weight:600;
-transition:0.3s;
-border:2px solid #0A6DC2;
+padding:10px 20px;
+border-radius:8px;
+border:none;
 cursor:pointer;
+transition:0.3s;
 }
 
 .join-btn:hover
-
-/* Hero */
 
 .hero{
 display:flex;
 align-items:center;
 justify-content:space-between;
-padding:120px;
+padding:100px;
 }
 
 .hero-text{
-max-width:500px;
+max-width:450px;
 }
 
 .hero-text h1{
-font-s
+font-size:42px;
+color:#0A6DC2;
+}
+
+.hero-images{
+position:relative;
+width:400px;
+}
+
+.image-card{
+position:absolute;
+box-shadow:0 10px 20px rgba(0,0,0,0.15);
+border-radius:12px;
+overflow:hidden;
+}
+
+.image-card img{
+width:345px;
+height:194px;
+object-fit:cover;
+}
+
+.img1{
+top:0;
+right:0;
+}
+
+.img2{
+top:120px;
+right:-100px;
+}
+
+.image-label{
+position:absolute;
+bottom:10px;
+left:10px;
+background:#C2F2FF;
+padding:6px 10px;
+border-radius:6px;
+font-size:12px;
+}
+
+.section{
+padding:80px;
+text-align:center;
+}
+
+.grey{
+background:#fafafa;
+}
+
+.grid{
+display:flex;
+gap:30px;
+justify-content:center;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.card,.trainer,.price{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover,.trainer:hover,.price:hover{
+transform:translateY(-8px);
+}
+
+.trainer img{
+width:200px;
+border-radius:10px;
+}
+
+.contact{
+max-width:400px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.contact input,.contact textarea{
+padding:10px;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+footer{
+background:#0A6DC2;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+@media(max-width:900px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+.hero-images{
+margin-top:40px;
+}
+
+}
