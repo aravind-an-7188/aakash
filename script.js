@@ -1,1 +1,1 @@
-console.log("Aravind Aakash Gym website loaded");
+console.log("Gym website loaded");
