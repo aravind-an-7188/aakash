@@ -1,121 +1,135 @@
 body{
+font-family: Arial;
 margin:0;
-font-family:Arial;
-background:#C2F2FF;
+background:#f5f5f5;
 }
-
-/* navbar */
 
 header{
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:20px 40px;
-background:white;
+padding:20px 80px;
+background:#C2F2FF;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+color:#0A6DC2;
 }
 
 nav a{
-margin-left:20px;
+margin-left:30px;
 text-decoration:none;
 color:#0A6DC2;
-font-weight:bold;
 }
 
-/* hero */
+.join-btn{
+background:#0A6DC2;
+color:white;
+padding:10px 20px;
+border-radius:8px;
+text-decoration:none;
+}
 
 .hero{
-height:80vh;
 display:flex;
+justify-content:space-between;
 align-items:center;
-justify-content:center;
-background:linear-gradient(#C2F2FF,#ffffff);
-text-align:center;
+padding:100px;
 }
 
-.hero h1{
-font-size:60px;
+.hero-text h1{
+font-size:48px;
 color:#0A6DC2;
 }
 
-.hero button{
-padding:15px 40px;
-border:none;
-background:#0A6DC2;
-color:white;
+.hero-text p{
+margin-top:20px;
 font-size:18px;
-cursor:pointer;
+}
+
+.buttons{
+margin-top:30px;
+}
+
+.demo-btn{
+border:2px solid #0A6DC2;
+padding:10px 20px;
+border-radius:8px;
+margin-left:20px;
+}
+
+.hero-images{
+position:relative;
+}
+
+.img1{
+width:300px;
+border-radius:10px;
+}
+
+.img2{
+width:300px;
+border-radius:10px;
+position:absolute;
+top:120px;
+left:150px;
+}
+
+.ondemand{
+display:flex;
+justify-content:space-between;
+padding:100px;
+}
+
+.left h3{
+color:#0A6DC2;
+}
+
+.right{
+background:white;
+padding:40px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.session{
+background:#C2F2FF;
+padding:20px;
+margin-bottom:15px;
 border-radius:8px;
 }
 
-/* features */
-
-.features{
-display:flex;
-gap:30px;
-justify-content:center;
-padding:60px;
-}
-
-.card{
-background:white;
-padding:30px;
-border-radius:10px;
-width:250px;
+.form-container{
+width:400px;
+margin:100px auto;
 text-align:center;
 }
 
-/* trainers */
-
-.trainers{
-padding:80px;
-text-align:center;
+input{
+width:100%;
+padding:12px;
+margin:10px 0;
+border-radius:6px;
+border:1px solid #ccc;
 }
 
-.trainer-grid{
-display:flex;
-gap:30px;
-justify-content:center;
-}
-
-.trainer img{
-width:200px;
-border-radius:10px;
-}
-
-/* pricing */
-
-.pricing{
-padding:80px;
-display:flex;
-gap:30px;
-justify-content:center;
-}
-
-.price-card{
-background:white;
-padding:30px;
-text-align:center;
-border-radius:10px;
-}
-
-/* contact */
-
-.contact{
-padding:80px;
-text-align:center;
-}
-
-.contact input,
-.contact textarea{
-display:block;
-margin:10px auto;
-width:300px;
-padding:10px;
-}
-
-footer{
+.main-btn{
+width:100%;
+padding:12px;
 background:#0A6DC2;
 color:white;
-text-align:center;
-padding:20px;
+border:none;
+border-radius:6px;
+margin-top:10px;
+}
+
+.google,.facebook{
+width:100%;
+padding:10px;
+margin-top:10px;
+background:#C2F2FF;
+border:none;
+border-radius:6px;
 }
